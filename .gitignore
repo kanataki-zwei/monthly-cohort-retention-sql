@@ -1,0 +1,23 @@
+# Ignore database dumps and backups
+*.sql.bak
+*.sql.gz
+*.dump
+*.db
+
+# Ignore CSV sample data files
+data/*.csv
+
+# Ignore Docker build files
+docker/data/
+docker-entrypoint-initdb.d/
+*.pid
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore system and editor-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
